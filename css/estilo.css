@@ -1,0 +1,81 @@
+/* Elementos */
+body    			{ background:url(../imagens/background.jpg) repeat-x #FFF; margin:0; font-family:Arial; font-size:14px; color:#666;}
+a					{ border:none; color:#808284; text-decoration:none;}
+a:hover				{ border:none; color:#CCC; text-decoration:none;}
+input[type=text]	{ outline:none;}
+
+/* Padrão */
+.logo				{ height:160px; vertical-align:top;}
+div#back			{ background:url(../imagens/back.jpg) repeat-x; width:100%; height:105px; margin:0 auto; position:absolute; top:0; z-index:-9999;}
+.topo				{ width:960px; margin:0 auto; height:168px;}
+.wrapper			{ width:960px; margin:0 auto; margin-top:20px; margin-bottom:20px; text-align:justify;}
+.wrapper .home td	{ text-align:center; font-family:Arial; font-size:13px; color:#808284; vertical-align:top;}
+.banner				{ border:none;}
+.txt-home			{ text-align:justify; padding:28px 5px; line-height:20px; border-top:2px solid #DDD; border-bottom:2px solid #DDD;}
+
+.body td			{ padding:0 40px; vertical-align:top; text-indent:30px;}
+.body td li			{ list-style:circle; padding:5px 0 5px 0;}
+.titulo				{ font-family:Helvetica Neue LT Std, Arial; font-size:40px; color:#416052; margin:0 0 10px 0; text-indent:0px;}
+.subtitulo			{ font-family:Helvetica Neue LT Std, Arial; font-size:30px; color:#416052; margin:0 0 10px 0; text-indent:0px;}
+.destaque			{ font-family:Helvetica Neue LT Std, Arial; font-size:20px; color:#416052;}
+
+.banner				{ width:960px; margin:0 auto; margin-top:14px;}
+
+/* Contato */
+.contato td			{ padding:0 10px;}
+
+/* Formulario */
+input.form			{ border: 1px solid #DDD; height:20px; width:350px;-moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; color:#666; padding:5px; background-color:#FFF;}
+input.form_cidade	{ border: 1px solid #DDD; height:20px; width:210px;-moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; color:#666; padding:5px; background-color:#FFF;}
+
+textarea.form		{ border: 1px solid #DDD; height:100px; width:350px;-moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; color:#666; padding:5px; background-color:#FFF;}
+.but_form			{ border: 1px solid #DDD; height:30px; width:150px;-moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; color:#FFF; padding:5px; background-color:#666;}
+
+/* Rodapé */
+div#rodape			{ width:100%; height:124px; margin:0 auto; text-align:center; margin-top:30px; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#FFF;}
+.rodape				{ width:100%; height:62px; background:url(../imagens/rodape.jpg) repeat-x; margin:0 auto;}
+.rodape2			{ width:100%; height:62px; background:url(../imagens/rodape-02.jpg) repeat-x; margin:0 auto;}
+div#rodape td		{ padding:4px; padding-top:20px;}
+
+/* Alerta */
+#mask 	{ display: none; background: #000;  position: fixed; left: 0; top: 0;  z-index: 10; width: 100%; height: 100%; opacity: 0.8; z-index: 999;}
+.janela	{ width:15%; height:10%; overflow:hidden; background-color:#EEE; padding: 30px 50px; border: 2px solid #ddd; position:fixed; text-align:center; top: 50%; left: 50%; right: 50%; /* Centralizar */ z-index: 99999; box-shadow: 0px 0px 20px #FFF; /* CSS3 */ -moz-box-shadow: 0px 0px 20px #FFF; /* Firefox */ -webkit-box-shadow: 0px 0px 20px #FFF; /* Safari, Chrome */ border-radius:10px; -moz-border-radius: 10px; /* Firefox */ -webkit-border-radius: 10px; /* Safari, Chrome */ font-family:"Arial";}
+input	{ border: 1px solid #666; height:25px; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; color:#FFF; padding:5px; background-color:#666;}
+
+/* Fotos */
+#fotos #titulo				{ font:18px "Arial";  color:#416052; text-align:right; border-bottom:2px solid #DDD; padding:0 10px 10px 20px; margin:0 0 20px 0;}
+#fotos .tituloalbum			{ font:14px "Arial";  color:#416052; padding:0 10px 10px 0; margin:0 0 5px 0;}
+#fotos .album				{ width:210px; margin:10px;}
+#fotos img					{ width:200px; margin:10px 0 10px 0; border:1px solid #DDD; padding:4px;}
+
+#exibefotos .compartilha	{ float:right; padding:0 10px 0 0; margin:0;}
+#exibefotos #titulo			{ font:18px "Arial";  color:#416052; text-align:left; border-bottom:2px solid #DDD; padding:0 10px 10px 20px; margin:0 0 5px 0;}
+#exibefotos .tituloalbum	{ font:14px "Arial";  color:#416052; padding:0 10px 10px 0; margin:0 0 5px 0;}
+#exibefotos .album			{ width:210px; margin:10px;}
+#exibefotos img				{ width:200px; margin:10px 0 10px 0; border:1px solid #DDD; padding:4px;}
+#exibefotos #data			{ font:11px "Arial";  color:#999; text-align:right; padding:0 10px 0 0; margin:0 0 20px 0;}
+#exibefotos #descricao		{ width:100%; padding:0 0 20px 0; margin:0 30px 0 30px;}
+
+/* LightBox */
+#lightbox						{ position: absolute; left: 0; width: 100%; z-index: 9999; text-align: center; line-height: 0;}
+#lightbox a img					{ border: none;}
+#outerImageContainer			{ position: relative; background-color: #fff; width: 250px; height: 250px; margin: 0 auto;}
+#imageContainer					{ padding: 10px;}
+#loading						{ position: absolute;top: 40%;left: 0%;height: 25%;width: 100%;text-align: center;line-height: 0;}
+#hoverNav						{ position: absolute;top: 0;left: 0;height: 100%;width: 100%;z-index: 10;}
+#imageContainer>#hoverNav		{ left: 0;}
+#hoverNav a						{ outline: none;}
+#prevLink, #nextLink			{ width: 49%;height: 100%;background: transparent url(../imagens/blank.gif) no-repeat; /* Trick IE into showing hover */display: block;}
+#prevLink 						{ left: 0; float: left;}
+#nextLink 						{ right: 0; float: right;}
+#prevLink:hover, 
+#prevLink:visited:hover 		{ background: url(../imagens/prev.gif) left 15% no-repeat; }
+#nextLink:hover, 
+#nextLink:visited:hover 		{ background: url(../imagens/next.gif) right 15% no-repeat; }
+#imageDataContainer				{ font: 10px Arial;background-color: #fff;margin: 0 auto;line-height: 1.4em;overflow: auto;width: 100%	}
+#imageData						{ padding:0 10px; color: #666; }
+#imageData #imageDetails		{ width: 70%; float: left; text-align: left; }	
+#imageData #caption				{ font-weight: bold;}
+#imageData #numberDisplay		{ display: block; clear: left; padding-bottom: 1.0em;}			
+#imageData #bottomNavClose		{ width: 66px; float: right;  padding-bottom: 0.7em;}	
+#overlay						{ position: absolute;top: 0;left: 0;z-index: 9998;width: 100%;height: 100%;background-color: #000;}

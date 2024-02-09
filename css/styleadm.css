@@ -1,0 +1,93 @@
+/* Elementos */
+body    			{ background: #EFEFEF; margin:0; font-family:Arial; font-size:14px; color:#666;}
+a					{ border:none; color:#808284; text-decoration:none;}
+a:hover				{ border:none; color:#CCC; text-decoration:none;}
+input[type=text]	{ outline:none;}
+
+/* Padrão */
+.logo				{ height:160px; vertical-align:top;}
+div#back			{ background:url(../imagens/back.jpg) repeat-x; width:100%; height:105px; margin:0 auto; position:absolute; top:0; z-index:-9999;}
+.topo				{ width:960px; margin:0 auto; height:168px;}
+.wrapper			{ width:960px; margin:0 auto; margin-top:20px; margin-bottom:20px; text-align:justify;}
+.wrapper .home td	{ text-align:center; font-family:Arial; font-size:13px; color:#808284; vertical-align:top;}
+.banner				{ border:none;}
+.txt-home			{ text-align:justify; padding:28px 5px; line-height:20px; border-top:2px solid #DDD; border-bottom:2px solid #DDD;}
+
+.body td			{ padding:0 40px; vertical-align:top; text-indent:30px;}
+.body td li			{ list-style:circle; padding:5px 0 5px 0;}
+.titulo				{ font-family:Helvetica Neue LT Std, Arial; font-size:40px; color:#416052; margin:0 0 10px 0; text-indent:0px;}
+.subtitulo			{ font-family:Helvetica Neue LT Std, Arial; font-size:30px; color:#416052; margin:0 0 10px 0; text-indent:0px;}
+.destaque			{ font-family:Helvetica Neue LT Std, Arial; font-size:20px; color:#416052;}
+
+/* Contato */
+.contato td			{ padding:0 10px;}
+
+/* Formulario */
+input.form			{ border: 1px solid #DDD; height:20px; width:350px;-moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; color:#666; padding:5px; background-color:#FFF;}
+input.form_cidade	{ border: 1px solid #DDD; height:20px; width:210px;-moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; color:#666; padding:5px; background-color:#FFF;}
+
+textarea.form		{ border: 1px solid #DDD; height:100px; width:350px;-moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; color:#666; padding:5px; background-color:#FFF;}
+.but_form			{ border: 1px solid #DDD; height:30px; width:150px;-moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; color:#FFF; padding:5px; background-color:#666;}
+
+/* Rodapé */
+div#rodape			{ width:100%; height:124px; margin:0 auto; text-align:center; margin-top:30px; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#FFF;}
+.rodape				{ width:100%; height:62px; background:url(../imagens/rodape.jpg) repeat-x; margin:0 auto;}
+.rodape2			{ width:100%; height:62px; background:url(../imagens/rodape-02.jpg) repeat-x; margin:0 auto;}
+div#rodape td		{ padding:4px; padding-top:20px;}
+
+/* Alerta */
+#mask 	{ display: none; background: #000;  position: fixed; left: 0; top: 0;  z-index: 10; width: 100%; height: 100%; opacity: 0.8; z-index: 999;}
+.janela	{ width:15%; height:10%; overflow:hidden; background-color:#EEE; padding: 30px 50px; border: 2px solid #ddd; position:fixed; text-align:center; top: 50%; left: 50%; right: 50%; /* Centralizar */ z-index: 99999; box-shadow: 0px 0px 20px #FFF; /* CSS3 */ -moz-box-shadow: 0px 0px 20px #FFF; /* Firefox */ -webkit-box-shadow: 0px 0px 20px #FFF; /* Safari, Chrome */ border-radius:10px; -moz-border-radius: 10px; /* Firefox */ -webkit-border-radius: 10px; /* Safari, Chrome */ font-family:"Arial";}
+input	{ border: 1px solid #666; height:25px; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; color:#FFF; padding:5px; background-color:#666;}
+
+/* LightBox */
+#lightbox						{ position: absolute; left: 0; width: 100%; z-index: 9999; text-align: center; line-height: 0;}
+#lightbox a img					{ border: none;}
+#outerImageContainer			{ position: relative; background-color: #fff; width: 250px; height: 250px; margin: 0 auto;}
+#imageContainer					{ padding: 10px;}
+#loading						{ position: absolute;top: 40%;left: 0%;height: 25%;width: 100%;text-align: center;line-height: 0;}
+#hoverNav						{ position: absolute;top: 0;left: 0;height: 100%;width: 100%;z-index: 10;}
+#imageContainer>#hoverNav		{ left: 0;}
+#hoverNav a						{ outline: none;}
+#prevLink, #nextLink			{ width: 49%;height: 100%;background: transparent url(../imagens/blank.gif) no-repeat; /* Trick IE into showing hover */display: block;}
+#prevLink 						{ left: 0; float: left;}
+#nextLink 						{ right: 0; float: right;}
+#prevLink:hover, 
+#prevLink:visited:hover 		{ background: url(../imagens/prev.gif) left 15% no-repeat; }
+#nextLink:hover, 
+#nextLink:visited:hover 		{ background: url(../imagens/next.gif) right 15% no-repeat; }
+#imageDataContainer				{ font: 10px Arial;background-color: #fff;margin: 0 auto;line-height: 1.4em;overflow: auto;width: 100%	}
+#imageData						{ padding:0 10px; color: #666; }
+#imageData #imageDetails		{ width: 70%; float: left; text-align: left; }	
+#imageData #caption				{ font-weight: bold;}
+#imageData #numberDisplay		{ display: block; clear: left; padding-bottom: 1.0em;}			
+#imageData #bottomNavClose		{ width: 66px; float: right;  padding-bottom: 0.7em;}	
+#overlay						{ position: absolute;top: 0;left: 0;z-index: 9998;width: 100%;height: 100%;background-color: #000;}
+
+/* Painel / Formulario */
+input[type="button"]		{ font:11px "Arial";  color:#FFF; padding:4px 15px; border:0; background:#333; cursor:pointer; _cursor: hand; }
+input[type="submit"]		{ font:11px "Arial";  color:#FFF; padding:7px 15px; border:0; background:#333; cursor:pointer; _cursor: hand; }
+input[type="file"]			{ font:11px "Arial";  border:0; background:none; cursor:pointer; _cursor: hand; }
+select						{ font:11px "Arial"; border: 1px solid #AAA; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; background:#FFF; padding: 8px 8px; color:#333; -webkit-appearance: none; -moz-appearance: none; appearance: none; outline:none; background:url(../imagens/seta.png) no-repeat right #FFF;}
+input,textarea				{ font:11px "Arial"; border: 1px solid #AAA; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; background:#FFF; padding: 5px 8px; color:#333;}
+input,select, textarea:focus		{ outline:none;}
+input#fot_legenda			{ font-size:10px; width:160px; margin-top:5px;}
+.titulo_adm					{ width:940px; margin:0 auto; font:16px "Arial";  color:#333; text-align:left; border-bottom:2px solid #DDD; padding:0 10px 10px 20px; margin:20px 0 10px 0;}
+#icone						{ width:100%; text-align:left; padding:0 0 18px 20px;}
+.titulo_tabela				{ font:11px "Arial";  color:#FFF; border:0; background:#333;}
+.linhapar					{ background:#EFEFEF;}
+.bordatabela				{ border: 1px solid #DDD;}
+.bordatop					{ border-top: 1px solid #DDD;}
+.bordabottom				{ border-bottom: 1px solid #DDD;}
+tr.over td 					{ background-color:#F9F9F9; cursor:pointer; _cursor: hand; }
+
+#foto 						{ float: left; width:25%;}
+#foto .excluir				{ color:#333; position:relative; top:-5px; left:182px; background:#FFF; width:30px; font:11px "Arial"; padding: 5px 0 5px 0; -moz-border-radius:5px 0 0 0; -webkit-border-radius:5px 0 0 0; border-radius:5px 0 0 0; }
+#foto img					{ padding:4px; border:1px solid #CCC; margin: 10px 0 -20px 0; width:216px; background:#FFF;}
+#foto .x					{ margin:0; border:0; padding: 0; width: 15px; }
+#foto .legenda				{ width: 220px; margin-bottom:10px;}
+#foto textarea#legenda 		{ font:12px "Arial"; color:#999; background: #FFF; border: 1px solid #DDD; width:209px; resize:none; overflow:hidden; }
+
+/* PAINEL - ALBUM/FOTOS */
+#alb_titulo	 	{width: 320px;}
+#alb_data	 	{width: 100px;}
